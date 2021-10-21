@@ -2,7 +2,7 @@
 
 The purpose of this exercise is to train you to work with string values.
 
-Estimated workload of this exercise is _60 min_.
+Estimated workload of this exercise is _45 min_.
 
 ### Description
 Please, implement `validateColorCode` method in [`ColorCodeValidation`](src/main/java/com/epam/rd/autotasks/validations/ColorCodeValidation.java):
