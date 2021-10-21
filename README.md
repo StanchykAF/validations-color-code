@@ -1,23 +1,13 @@
 # Validations. Color Code
 
-Implement validation method in [`ColorCodeValidation`](src/main/java/com/epam/rd/autotasks/validations/ColorCodeValidation.java):
-```java
-public static boolean validateColorCode(String color)
-```
-This method checks the input string for compliance with the rules for writing [HTML Color Codes ](https://htmlcolorcodes.com/).
+The purpose of this exercise is to train you to work with string values.
 
-- Examples of valid hex codes:
-```bash
-#0B79E1 
-#6A8DAF 
-#002950 
-```
-- Examples of invalid hex codes:
-```bash
-123456
-#afafah 
-#-123 
-```
+Estimated workload of this exercise is _60 min_.
+
+### Description
+Please, implement `validateColorCode` method in [`ColorCodeValidation`](src/main/java/com/epam/rd/autotasks/validations/ColorCodeValidation.java):
+
+This method checks the input string for compliance with the rules for writing [HTML Color Codes ](https://htmlcolorcodes.com/).
 
 While implementing the methods you might need to come up with *regular expressions*.
 You may consider using [regex101.com](https://regex101.com/) to ease designing them.
@@ -27,8 +17,15 @@ You can and should use following methods\classes:
 - [`Pattern`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/regex/Pattern.html)
 - [`Matcher`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/regex/Pattern.html#matcher(java.lang.CharSequence))
 
-There are JUnit5 tests classes for making sure each method's behavior is correct.
-You can use them yourself, for that you need to install Maven project manager and run the following command in the project folder:
-```bash
-mvn clean test
-```
+### Examples
+- Examples of valid hex codes:
+
+      #0B79E1 
+      #6A8DAF 
+      #002950 
+
+- Examples of invalid hex codes:
+
+      123456
+      #afafah 
+      #-123 
