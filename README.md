@@ -7,7 +7,7 @@ Estimated workload of this exercise is _45 min_.
 ### Description
 Please, implement `validateColorCode` method in [`ColorCodeValidation`](src/main/java/com/epam/rd/autotasks/validations/ColorCodeValidation.java):
 
-This method checks the input string for compliance with the rules for writing [HTML Color Codes ](https://htmlcolorcodes.com/).
+This method checks the input string for compliance with the rules for writing [HTML Color Codes](https://htmlcolorcodes.com/).
 
 While implementing the methods you might need to come up with *regular expressions*.
 You may consider using [regex101.com](https://regex101.com/) to ease designing them.
