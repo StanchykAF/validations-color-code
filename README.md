@@ -23,8 +23,9 @@ You can and should use following methods\classes:
 - Examples of valid hex codes:
 
       #0B79E1 
-      #6A8DAF 
-      #002950 
+      #6a8daf 
+      #002950
+      #FFF
 
 - Examples of invalid hex codes:
 
